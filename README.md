@@ -1,11 +1,11 @@
-# 포트폴리오 사이트 만들기 프로젝트
+# 포트폴리오 사이트
 
 - 임예진의 포트폴리오 입니다.
 - 웹스토리보이의 강의와 코드를 참고하였습니다.
 
 ## 완성작 보기
 
-미리보기 :
+[maple2423-portfolio.netlify.app](https://maple2423-portfolio.netlify.app/)
 
 ## 사용 스택
 
@@ -21,4 +21,4 @@
 - vite를 설치합니다. `npm create vite@latest`
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
-- [port2024-yejin-vite] 에서 `npm run dev` 명령어를 통해 실행합니다.
+- `npm run dev` 명령어를 통해 실행합니다.
