@@ -5,7 +5,7 @@
 
 ## 완성작 보기
 
-미리보기 :
+[maple2423-portfolio.netlify.app](https://maple2423-portfolio.netlify.app/)
 
 ## 사용 스택
 
@@ -21,4 +21,4 @@
 - vite를 설치합니다. `npm create vite@latest`
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
-- [port2024-yejin-vite] 에서 `npm run dev` 명령어를 통해 실행합니다.
+- `npm run dev` 명령어를 통해 실행합니다.
