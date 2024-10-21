@@ -148,6 +148,7 @@
   color: #ffffff;
   padding: 5px;
   width: 80px;
+  margin: 5px;
 }
 .certificate-of-completion:hover {
   color: #afafaf;
@@ -155,8 +156,26 @@
 .certificate-of-completion:visited {
   color: #ffffff;
 }
-
+.rb-detail .Education img {
+  width: 80px;
+  height: auto;
+  margin: 5px;
+  object-fit: contain;
+}
+.rb-detail table th,
+td {
+  padding: 3px;
+}
 @media (max-width: 800px) {
+  .rb-detail .Education td:nth-child(1),
+  .rb-detail .Education td:nth-child(2),
+  .rb-detail .Education td:nth-child(3) {
+    display: none;
+  }
+  .rb-detail .Education {
+    font-size: 0.9em;
+  }
+
   .rb-detail .License td:nth-child(1),
   .rb-detail .License td:nth-child(3) {
     display: none;
