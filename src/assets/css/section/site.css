@@ -180,10 +180,18 @@ td {
   .rb-detail .License td:nth-child(3) {
     display: none;
   }
+  .rb-detail .License {
+    font-size: 0.8em;
+  }
+  .rb-detail .License th,
+  td {
+    padding: 0px;
+  }
   .rb-detail .work td:nth-child(2),
   .rb-detail .work td:nth-child(4) {
     display: none;
   }
+
   .site__title {
     width: 100%;
     margin-bottom: 10vw;
