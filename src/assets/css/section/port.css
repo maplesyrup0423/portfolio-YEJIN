@@ -35,6 +35,8 @@
   background-color: var(--subBg100);
   padding: 2.5rem;
   margin: 2vh 1vw;
+  display: flex;
+  flex-direction: column;
 }
 .port__item.p1 {
   background-color: var(--subBg100);
@@ -133,7 +135,18 @@
     display: none;
   }
 }
-
+.fff-skill {
+  background-color: var(--white);
+  width: calc(100% + 40px);
+  height: auto;
+  flex-grow: 1;
+  margin-left: -20px; /* 부모의 왼쪽 패딩 무시 */
+  margin-right: -20px; /* 부모의 오른쪽 패딩 무시 */
+  margin-bottom: -20px; /* 부모의 오른쪽 패딩 무시 */
+  padding: 5px 40px 20px 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
 .port-skill {
   display: grid;
   grid-template-columns: repeat(
@@ -141,8 +154,7 @@
     minmax(50px, 1fr)
   ); /* 최소 100px 크기로 자동으로 채우기 */
   gap: 16px; /* 이미지 사이의 간격 */
-  background-color: var(--white);
-  margin-top: 25px;
+  /* background-color: var(--white); */
 }
 .port-skill span {
   color: black;
