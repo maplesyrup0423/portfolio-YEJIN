@@ -34,10 +34,12 @@
   flex-wrap: wrap;
   gap: 2vh 2vw; /* 박스 간격 */
   justify-content: center; /* 가로 가운데 정렬 */
-  align-items: center; /* 세로 가운데 정렬 */
+  /* align-items: center; 세로 가운데 정렬 */
+  align-items: stretch;
 }
 
 .skill-box {
+  flex-grow: 1;
   width: 29vw;
   height: auto;
   min-height: 30vh;
