@@ -20,6 +20,13 @@
   --bg1: #0c0d10;
   --bg2: #16181b;
 
+  --btn-detail: #51658f;
+  --btn-video: #7c4b4b;
+  --btn-code: #2e7d32;
+  --btn-site: #e57c00;
+  --btn-paper-site: #323d55;
+  --btn-paper-pdf: #1a2b4c;
+
   /* 기본 폰트 설정 */
   font-family: var(--mainEng-font), var(--mainKor-font);
   font-size: 16px;

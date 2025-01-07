@@ -42,7 +42,7 @@
   flex-grow: 1;
   width: 29vw;
   height: auto;
-  min-height: 30vh;
+
   background-color: #ffffff;
   color: black;
   border-radius: 10px; /* 모서리를 둥글게 */
@@ -65,25 +65,30 @@
   background-color: #ffffff;
 }
 .skill-box .skill-item img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
   margin: auto;
 }
 
 .skill-box .rb-detail {
   font-size: 1em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; /* 수평 가운데 정렬 */
-  align-items: center; /* 수직 가운데 정렬 */
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(100px, 1fr)
+  ); /* 항목이 자동으로 적절하게 배치 */
+  gap: 5px; /* 항목 간격 */
+  justify-items: center; /* 각 항목을 수평 가운데 정렬 */
+  align-items: center; /* 각 항목을 수직 가운데 정렬 */
+  justify-content: center; /* 그리드 항목들을 수평으로 가운데 정렬 */
 }
+
 .skill-box .skill-item {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  margin: 10px;
+  margin: 5px;
   font-size: 1.2em;
   height: 100px;
   justify-content: center; /* 수평 가운데 정렬 */

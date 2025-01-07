@@ -170,3 +170,27 @@
   margin: auto;
   padding: 5px;
 }
+
+/* .btn-detail {
+  background-color: var(--btn-detail);
+}
+
+.btn-video {
+  background-color: var(--btn-video);
+} */
+
+.btn-code {
+  background-color: var(--btn-code);
+}
+
+.btn-site {
+  background-color: var(--btn-site);
+}
+
+/* .btn-paper-site {
+  background-color: var(--btn-paper-site);
+}
+
+.btn-paper-pdf {
+  background-color: var(--btn-paper-pdf);
+} */
