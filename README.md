@@ -22,3 +22,10 @@
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
 - `npm run dev` 명령어를 통해 실행합니다.
+
+
+## 최근 업데이트
+### 2025-01-13
+- Google Analytics GA4 추적 코드를 추가하여 사용자 활동을 모니터링하고 분석 기능을 강화하였습니다.
+### 2025-01-08
+- 개발중인 IT 취준생을 위한 면접 준비 웹사이트(IT Interview Prep) 개발 내용을 포트폴리오에 추가하였습니다.
