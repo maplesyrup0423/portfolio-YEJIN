@@ -34,15 +34,14 @@
 
 .intro__text .text {
   width: 80%;
-  font-size: 1vw;
-  line-height: 1.2;
+  line-height: 1.8;
   text-align: justify;
   z-index: 100;
 }
 .intro__text .about-tit {
   font-weight: 900;
   margin-bottom: 1em;
-  font-size: 2.5vw;
+  font-size: 3vw;
   margin-bottom: 1em;
 }
 .intro__text .about-text {
