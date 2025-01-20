@@ -33,7 +33,7 @@
   min-width: 400px;
   height: auto;
   background-color: var(--subBg100);
-  padding: 2.5rem;
+  padding: 1rem 2.5rem;
   margin: 2vh 1vw;
   display: flex;
   flex-direction: column;
@@ -81,6 +81,7 @@
   margin-top: 10px;
 }
 .port__item .img img {
+  margin-top: 2px;
   border-radius: 5px;
   transition: all 0.3s;
 }
@@ -191,3 +192,8 @@
 .btn-paper-pdf {
   background-color: var(--btn-paper-pdf);
 } */
+
+.port__item div:first-of-type span:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
