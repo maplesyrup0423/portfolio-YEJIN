@@ -22,11 +22,11 @@ async function loadPortfolioData() {
       imgLink.setAttribute("href", "#");
       imgLink.setAttribute("onclick", project.buttons[0].action);
       imgLink.setAttribute("target", "_blank");
-      imgLink.innerHTML = `<img src="${project.imgSrc}" alt="${project.alt}" />`;
+      imgLink.innerHTML = `<img src="${project.imgSrc}" alt="${project.mainTitle}" />`;
 
       const h3Title = document.createElement("h3");
       h3Title.classList.add("title");
-      h3Title.textContent = project.alt;
+      h3Title.textContent = project.mainTitle;
 
       // Description
       const pDesc = document.createElement("p");
@@ -59,7 +59,7 @@ async function loadPortfolioData() {
       project.buttons.forEach((button) => {
         const a = document.createElement("a");
         a.classList.add("site", `btn-${button.type}`);
-        if (button.type === "detail") {
+        if (button.type === "detail" || button.type === "paper-pdf") {
           a.setAttribute("onclick", button.action);
         } else {
           a.setAttribute("href", button.url);
@@ -74,7 +74,9 @@ async function loadPortfolioData() {
             ? "코드 보기 ( GitHub )"
             : button.type === "site"
             ? "사이트에서 직접보기"
-            : " ";
+            : button.type === "paper-site"
+            ? "논문 사이트 보기"
+            : "논문 PDF 보기";
         article.appendChild(a);
       });
       article.appendChild(skillsDiv); // Skills
