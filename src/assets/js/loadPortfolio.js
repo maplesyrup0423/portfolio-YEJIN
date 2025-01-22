@@ -26,7 +26,7 @@ async function loadPortfolioData() {
 
       const h3Title = document.createElement("h3");
       h3Title.classList.add("title");
-      h3Title.textContent = project.title;
+      h3Title.textContent = project.alt;
 
       // Description
       const pDesc = document.createElement("p");
@@ -50,7 +50,7 @@ async function loadPortfolioData() {
 
       // Add elements in proper order
       article.appendChild(headerDiv); // Title and Date
-
+      article.appendChild(dateSpan);
       article.appendChild(imgLink); // Image with link
       article.appendChild(h3Title); // Project Title
       article.appendChild(pDesc); // Project Description
@@ -70,7 +70,11 @@ async function loadPortfolioData() {
             ? "자세히 보기 ( pdf )"
             : button.type === "video"
             ? "시연영상 보기 ( YouTube )"
-            : "코드 보기 ( GitHub )";
+            : button.type === "code"
+            ? "코드 보기 ( GitHub )"
+            : button.type === "site"
+            ? "사이트에서 직접보기"
+            : " ";
         article.appendChild(a);
       });
       article.appendChild(skillsDiv); // Skills

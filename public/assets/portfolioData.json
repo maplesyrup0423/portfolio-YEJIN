@@ -70,5 +70,65 @@
         "url": "https://github.com/maplesyrup0423/intp_mentors"
       }
     ]
+  },
+  {
+    "id": "p3",
+    "num": "03.",
+    "title": "웹앱 - 개발자 포트폴리오",
+    "date": "2024 (1명)",
+    "imgSrc": "assets/img/port03.jpg",
+    "alt": "B-in",
+    "pdf": "",
+    "github": "https://github.com/maplesyrup0423/portfolio-YEJIN-2024",
+    "description": "이 포트폴리오 사이트는 다양한 프로젝트와 경험을 한눈에 볼 수 있는 플랫폼입니다. 사용자는 저의 기술적 역량과 프로젝트 수행 능력을 확인할 수 있으며, 각 프로젝트에 대한 상세한 설명과 GitHub 링크를 통해 실제 작업물을 직접 살펴볼 수 있습니다. 또한, 사이트는 반응형 디자인으로 다양한 기기에서 최적의 사용자 경험을 제공합니다.",
+    "skills": [
+      "assets/img/비트.svg",
+      "assets/img/netlify.png",
+      "assets/img/html-5.png",
+      "assets/img/Vanilla.jpg",
+      "assets/img/css-3.png",
+      "assets/img/git.svg",
+      "assets/img/github2.svg",
+      "assets/img/vsCode.svg"
+    ],
+    "buttons": [
+      {
+        "type": "code",
+        "url": "https://github.com/maplesyrup0423/portfolio-YEJIN-2024"
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "num": "04.",
+    "title": "게임 - 방탈출 게임",
+    "date": "2022.03~2022.12 (4명, 10개월)",
+    "imgSrc": "assets/img/port04.jpg",
+    "alt": "MEMENTO-MORI",
+    "pdf": "./assets/pdf/Mementomori_팀 모듈러니티 최종발표.pdf",
+    "youtube": "https://www.youtube.com/watch?v=fX6N1eZD8ww",
+    "github": "https://github.com/maplesyrup0423/Memento-mori",
+    "description": "유니티 엔진으로 개발된 PC용 2D 방탈출 게임입니다. 기존 방탈출 게임과 차별화된 점은 사망 요소와 보스전이 포함되어 있다는 것입니다. 긴장감 넘치는 퍼즐과 스릴 넘치는 전투를 동시에 즐길 수 있는 독특한 경험을 제공합니다.",
+    "skills": [
+      "assets/img/c-sharp.png",
+      "assets/img/유니티.png",
+      "assets/img/Visual Studio.jpg",
+      "assets/img/git.svg",
+      "assets/img/github2.svg"
+    ],
+    "buttons": [
+      {
+        "type": "detail",
+        "action": "showPDF('./assets/pdf/Mementomori_팀 모듈러니티 최종발표.pdf')"
+      },
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fX6N1eZD8ww"
+      },
+      {
+        "type": "code",
+        "url": "https://github.com/maplesyrup0423/Memento-mori"
+      }
+    ]
   }
 ]
