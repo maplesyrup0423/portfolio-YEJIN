@@ -76,7 +76,9 @@ async function loadPortfolioData() {
             ? "사이트에서 직접보기"
             : button.type === "paper-site"
             ? "논문 사이트 보기"
-            : "논문 PDF 보기";
+            : button.type === "paper-pdf"
+            ? "논문 PDF 보기 "
+            : " ";
         article.appendChild(a);
       });
       article.appendChild(skillsDiv); // Skills
