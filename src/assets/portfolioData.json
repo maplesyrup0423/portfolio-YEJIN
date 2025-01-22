@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p1",
+    "num": "01.",
+    "title": "웹앱 - 소셜 네트워크 플랫폼",
+    "date": "2024.08~2024.09 (5명, 2개월)",
+    "imgSrc": "assets/img/port01.jpg",
+    "alt": "sol",
+    "pdf": "./assets/pdf/SOL Project.pdf",
+    "youtube": "https://youtu.be/aSnePKrJDt0",
+    "github": "https://github.com/maplesyrup0423/sol_pj",
+    "description": "사용자들에게 효율적이고 친화적인 소통 공간을 제공하는 소셜 네트워킹 서비스(SNS)입니다. 게시글을 피드 형태로 표시하는 Web Feed와 실시간 메신저 기능을 통합하여 깊이 있는 대화와 즉각적인 소통을 지원합니다. 직관적인 인터페이스로 사용자 경험을 극대화하며, 다양한 주제에 대한 소통을 촉진합니다.",
+    "skills": [
+      "assets/img/리액트.svg",
+      "assets/img/비트.svg",
+      "assets/img/노드.svg",
+      "https://labs.mysql.com/common/logos/mysql-logo.svg",
+      "assets/img/MySQL-Workbench.jpg",
+      "assets/img/git.svg",
+      "assets/img/github2.svg",
+      "assets/img/vsCode.svg",
+      "assets/img/html-5.png",
+      "assets/img/js.png",
+      "assets/img/css-3.png"
+    ],
+    "buttons": [
+      {
+        "type": "detail",
+        "action": "showPDF('./assets/pdf/SOL Project.pdf')"
+      },
+      {
+        "type": "video",
+        "url": "https://youtu.be/aSnePKrJDt0"
+      },
+      {
+        "type": "code",
+        "url": "https://github.com/maplesyrup0423/sol_pj"
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "num": "02.",
+    "title": "웹앱 - 교사 연수 플랫폼",
+    "date": "2024.02~2024.03 (6명, 1개월)",
+    "imgSrc": "assets/img/port02.jpg",
+    "alt": "Mentors",
+    "pdf": "./assets/pdf/멘토스.pdf",
+    "github": "https://github.com/maplesyrup0423/intp_mentors",
+    "description": "교사들을 위한 전문적인 연수 제공 사이트입니다. 사용자는 연수를 구매하고 시청하며 시험에 응시할 수 있는 기능을 제공하여, 교사들의 전문성을 향상시킬 수 있도록 지원합니다. 또한, 각종 이벤트와 도서 정보도 함께 제공하여 사용자들에게 종합적인 학습 경험을 제공합니다.",
+    "skills": [
+      "assets/img/spring-web-mvc.png",
+      "assets/img/git.svg",
+      "assets/img/github2.svg",
+      "assets/img/jsp.png",
+      "assets/img/html-5.png",
+      "assets/img/js.png",
+      "assets/img/css-3.png",
+      "assets/img/이클립스.png",
+      "assets/img/오라클.png",
+      "assets/img/톰.png"
+    ],
+    "buttons": [
+      {
+        "type": "detail",
+        "action": "showPDF('./assets/pdf/멘토스.pdf')"
+      },
+      {
+        "type": "code",
+        "url": "https://github.com/maplesyrup0423/intp_mentors"
+      }
+    ]
+  }
+]
