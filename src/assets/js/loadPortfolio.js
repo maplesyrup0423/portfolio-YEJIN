@@ -1,6 +1,6 @@
 async function loadPortfolioData() {
   try {
-    const response = await fetch("/assets/portfolioData.json"); // JSON 파일을 fetch로 불러옵니다.
+    const response = await fetch("/assets/json/portfolioData.json"); // JSON 파일을 fetch로 불러옵니다.
     const portfolioData = await response.json(); // JSON 데이터를 파싱합니다.
 
     const portfolioContainer = document.querySelector(".port__wrap"); // 'port__wrap' 클래스를 가진 컨테이너를 선택합니다.
@@ -73,7 +73,7 @@ async function loadPortfolioData() {
             : button.type === "code"
             ? "코드 보기 ( GitHub )"
             : button.type === "site"
-            ? "사이트에서 직접보기"
+            ? "사이트에서 직접 보기"
             : button.type === "paper-site"
             ? "논문 사이트 보기"
             : button.type === "paper-pdf"
