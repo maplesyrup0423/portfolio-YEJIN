@@ -55,31 +55,42 @@ async function loadPortfolioData() {
       article.appendChild(h3Title); // Project Title
       article.appendChild(pDesc); // Project Description
 
-      // Add buttons at the end of the article
+      // 버튼 타입에 맞는 텍스트를 설정하고, 해당하지 않으면 버튼을 생성하지 않음
       project.buttons.forEach((button) => {
         const a = document.createElement("a");
         a.classList.add("site", `btn-${button.type}`);
-        if (button.type === "detail" || button.type === "paper-pdf") {
-          a.setAttribute("onclick", button.action);
-        } else {
-          a.setAttribute("href", button.url);
-          a.setAttribute("target", "_blank");
+
+        // 버튼 타입에 맞는 텍스트를 설정
+        let buttonText = "";
+        if (button.type === "detail") {
+          buttonText = "자세히 보기 ( pdf )";
+        } else if (button.type === "video") {
+          buttonText = "시연영상 보기 ( YouTube )";
+        } else if (button.type === "code") {
+          buttonText = "코드 보기 ( GitHub )";
+        } else if (button.type === "site") {
+          buttonText = "사이트에서 직접 보기";
+        } else if (button.type === "paper-site") {
+          buttonText = "논문 사이트 보기";
+        } else if (button.type === "paper-pdf") {
+          buttonText = "논문 PDF 보기";
         }
-        a.textContent =
-          button.type === "detail"
-            ? "자세히 보기 ( pdf )"
-            : button.type === "video"
-            ? "시연영상 보기 ( YouTube )"
-            : button.type === "code"
-            ? "코드 보기 ( GitHub )"
-            : button.type === "site"
-            ? "사이트에서 직접 보기"
-            : button.type === "paper-site"
-            ? "논문 사이트 보기"
-            : button.type === "paper-pdf"
-            ? "논문 PDF 보기 "
-            : " ";
-        article.appendChild(a);
+
+        // 버튼 텍스트가 비어 있지 않으면, 버튼에 URL이나 동작을 설정하고 추가
+        if (buttonText) {
+          a.textContent = buttonText;
+
+          // 버튼의 클릭 이벤트 또는 링크 설정
+          if (button.type === "detail" || button.type === "paper-pdf") {
+            a.setAttribute("onclick", button.action);
+          } else {
+            a.setAttribute("href", button.url);
+            a.setAttribute("target", "_blank");
+          }
+
+          // 버튼을 아티클에 추가
+          article.appendChild(a);
+        }
       });
       article.appendChild(skillsDiv); // Skills
 
