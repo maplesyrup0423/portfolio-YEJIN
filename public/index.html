@@ -37,8 +37,8 @@
 
       gtag("config", "G-STX6VMMRJG");
     </script>
-    <script type="module" crossorigin src="/assets/index-1a76557b.js"></script>
-    <link rel="stylesheet" href="/assets/index-b28246e5.css">
+    <script type="module" crossorigin src="/assets/index-fc919563.js"></script>
+    <link rel="stylesheet" href="/assets/index-873054dd.css">
   </head>
 
   <body>
@@ -47,9 +47,9 @@
     <div id="skip">
       <a href="#header">헤더 영역 바로가기</a>
       <a href="#intro">소개 영역 바로가기</a>
-      <a href="#Experience">경험 영역 바로가기</a>
-      <a href="#skill">스킬 영역 바로가기</a>
       <a href="#port">포트폴리오 영역 바로가기</a>
+      <a href="#skill">스킬 영역 바로가기</a>
+      <a href="#Experience">경험 영역 바로가기</a>
       <a href="#contact">연락처 영역 바로가기</a>
       <a href="#footer">푸터 영역 바로가기</a>
     </div>
@@ -69,9 +69,9 @@
         <nav class="header__nav" role="navigation" aria-label="메인 메뉴">
           <ul>
             <li><a href="#intro">intro</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#skill">skill</a></li>
             <li><a href="#port">portfolio</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#Experience">Experience</a></li>
             <li><a href="#contact">contact</a></li>
           </ul>
         </nav>
@@ -113,8 +113,26 @@
           <div class="about-plus"></div>
         </div>
       </section>
-
       <!-- //intro -->
+
+      <section id="port">
+        <div class="port__inner">
+          <div class="port__title">portfolio <em>포폴 작업물 (최신순)</em></div>
+          <div class="port__wrap"></div>
+          <script src="assets/js/loadPortfolio.js"></script>
+        </div>
+      </section>
+      <!-- //port -->
+
+      <section id="skill">
+        <div class="skill__inner">
+          <h2 class="skill__title">skill <em>기술</em></h2>
+          <div class="skill__desc"></div>
+          <div class="skill-boxes" id="skill-container"></div>
+          <script defer src="assets/js/loadSkills.js"></script>
+        </div>
+      </section>
+      <!-- //skill -->
 
       <section id="Experience">
         <div class="site__inner">
@@ -272,25 +290,6 @@
         </div>
       </section>
       <!-- //Experience -->
-      <section id="skill">
-        <div class="skill__inner">
-          <h2 class="skill__title">skill <em>기술</em></h2>
-          <div class="skill__desc"></div>
-          <div class="skill-boxes" id="skill-container"></div>
-          <script defer src="assets/js/loadSkills.js"></script>
-        </div>
-      </section>
-
-      <!-- //skill -->
-
-      <section id="port">
-        <div class="port__inner">
-          <div class="port__title">portfolio <em>포폴 작업물</em></div>
-          <div class="port__wrap"></div>
-          <script src="assets/js/loadPortfolio.js"></script>
-        </div>
-      </section>
-      <!-- //port -->
 
       <section id="contact">
         <div class="contact__inner">
