@@ -1,21 +1,12 @@
-// JSON 데이터 가져오기
-fetch("assets/json/licenses.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-  })
-  .then((data) => renderLicenses(data))
-  .catch((error) => console.error("Error loading JSON:", error));
+// loadLicenses.js
+import licensesData from "../json/licenses.json"; // licenses.json 파일을 import
 
-// 렌더링 함수
-function renderLicenses(licenses) {
+export function loadLicenses() {
   const rbDetail = document.querySelector(".rb-License");
   const table = document.createElement("table");
   table.className = "License";
 
-  licenses.forEach((license) => {
+  licensesData.forEach((license) => {
     const row = document.createElement("tr");
     row.innerHTML = `
       <td>${license.date}</td>

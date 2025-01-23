@@ -1,8 +1,9 @@
-async function loadPortfolioData() {
-  try {
-    const response = await fetch("/assets/json/portfolioData.json"); // JSON 파일을 fetch로 불러옵니다.
-    const portfolioData = await response.json(); // JSON 데이터를 파싱합니다.
+// portfolioData.json 파일을 import
+import portfolioData from "../json/portfolioData.json";
 
+export async function loadPortfolioData() {
+  try {
+    // portfolioData는 이미 import 되어 있기 때문에 fetch는 필요 없습니다.
     const portfolioContainer = document.querySelector(".port__wrap"); // 'port__wrap' 클래스를 가진 컨테이너를 선택합니다.
 
     portfolioData.forEach((project) => {
@@ -101,6 +102,3 @@ async function loadPortfolioData() {
     console.error("포트폴리오 데이터를 불러오는 데 실패했습니다.", error);
   }
 }
-
-// 페이지 로드 시 포트폴리오 데이터를 불러옴
-document.addEventListener("DOMContentLoaded", loadPortfolioData);

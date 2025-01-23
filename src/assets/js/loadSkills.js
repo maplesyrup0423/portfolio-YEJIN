@@ -1,20 +1,12 @@
-// JSON 데이터 가져오기
-fetch("assets/json/skills.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-  })
-  .then((data) => renderSkills(data))
-  .catch((error) => console.error("Error loading JSON:", error));
+// skills.json 데이터를 임포트
+import skillsData from "../json/skills.json";
 
 // 렌더링 함수
-function renderSkills(skills) {
+export function loadSkills() {
   const skillContainer = document.getElementById("skill-container");
 
-  Object.keys(skills).forEach((category) => {
-    const categoryData = skills[category];
+  Object.keys(skillsData).forEach((category) => {
+    const categoryData = skillsData[category];
 
     // 카테고리 박스 생성
     const skillBox = document.createElement("div");

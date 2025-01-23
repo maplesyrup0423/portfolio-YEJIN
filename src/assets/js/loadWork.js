@@ -1,21 +1,13 @@
-// JSON 데이터 가져오기
-fetch("assets/json/work.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-  })
-  .then((data) => renderWork(data))
-  .catch((error) => console.error("Error loading JSON:", error));
+// work.json 데이터를 임포트
+import workData from "../json/work.json"; // 경로는 파일 위치에 맞게 수정
 
 // 렌더링 함수
-function renderWork(workList) {
+export function loadWork() {
   const rbDetail = document.querySelector(".rb-work");
   const table = document.createElement("table");
   table.className = "work";
 
-  workList.forEach((work) => {
+  workData.forEach((work) => {
     const row = document.createElement("tr");
     row.innerHTML = `
       <td>${work.period}</td>
