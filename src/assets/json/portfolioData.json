@@ -1,7 +1,85 @@
 [
   {
     "id": "p1",
-    "num": "01.",
+    "num": "",
+    "title": "웹앱 - IT 면접 준비 서비스 (개발중)",
+    "date": "2025.01~개발중 (1명)",
+    "imgSrc": "assets/img/IIP.png",
+    "mainTitle": "IT Interview Prep",
+    "description": "IT 취준생들이 면접 준비를 체계적으로 할 수 있도록 돕는 웹 애플리케이션입니다. 주요 면접 질문을 제공하고, 연습 모드를 통해 답변 연습을 할 수 있으며, 개인의 준비 상황을 추적할 수 있는 기능을 지원합니다.",
+    "skills": [
+      "assets/img/리액트.svg",
+      "assets/img/Tailwind_CSS.png",
+      "assets/img/Firebase.png",
+      "assets/img/git.svg",
+      "assets/img/github2.svg",
+      "assets/img/vsCode.svg"
+    ],
+    "buttons": [   {
+      "type": "",
+      "url": ""
+    }]
+  },
+  {
+    "id": "p2",
+    "num": "",
+    "title": "웹앱 - 개발자 타이핑 연습 서비스",
+    "date": "2024 (1명, 5일)",
+    "imgSrc": "assets/img/port06.jpg",
+    "mainTitle": "DevTyper",
+    "description": "DevTyper는 사용자가 실전 코드를 통해 타이핑 실력을 향상할 수 있는 웹 애플리케이션입니다. 이 앱은 GitHub API를 이용해 랜덤 코드 조각을 제공하고, 사용자의 타이핑 정확도와 속도를 측정하여 기록을 관리합니다. 이를 통해 개발자 및 코딩 초보자에게 유익한 연습 환경을 제공합니다.",
+    "skills": [
+      "assets/img/리액트.svg",
+      "assets/img/netlify.png",
+      "assets/img/html-5.png",
+      "assets/img/css-3.png",
+      "assets/img/git.svg",
+      "assets/img/github2.svg",
+      "assets/img/vsCode.svg"
+    ],
+    "buttons": [
+      {
+        "type": "site",
+        "url": "https://maplesyrup-devtyper.netlify.app/"
+      },
+      {
+        "type": "code",
+        "url": "https://github.com/maplesyrup0423/DevTyper"
+      }
+    ]
+  },
+  {
+    "id": "p3",
+    "num": "",
+    "title": "웹앱 - 개발자 포트폴리오",
+    "date": "2024 (1명)",
+    "imgSrc": "assets/img/port03.jpg",
+    "mainTitle": "PORTFOLIO",
+    "description": "이 포트폴리오 사이트는 다양한 프로젝트와 경험을 한눈에 볼 수 있는 플랫폼입니다. 사용자는 저의 기술적 역량과 프로젝트 수행 능력을 확인할 수 있으며, 각 프로젝트에 대한 상세한 설명과 GitHub 링크를 통해 실제 작업물을 직접 살펴볼 수 있습니다. 또한, 사이트는 반응형 디자인으로 다양한 기기에서 최적의 사용자 경험을 제공합니다. 제 개발 여정을 공유하고, 새로운 기회와 협업을 위한 포트폴리오를 구성하여, 지속적인 성장과 발전을 이루고자 합니다.",
+    "skills": [
+      "assets/img/비트.svg",
+      "assets/img/netlify.png",
+      "assets/img/html-5.png",
+      "assets/img/Vanilla.jpg",
+      "assets/img/css-3.png",
+      "assets/img/git.svg",
+      "assets/img/github2.svg",
+      "assets/img/vsCode.svg"
+    ],
+    "buttons": [
+      {
+        "type": "site",
+        "url": ""
+      },
+      {
+        "type": "code",
+        "url": "https://github.com/maplesyrup0423/portfolio-YEJIN-2024"
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "num": "",
     "title": "웹앱 - 소셜 네트워크 플랫폼",
     "date": "2024.08~2024.09 (5명, 2개월)",
     "imgSrc": "assets/img/port01.jpg",
@@ -37,8 +115,8 @@
     ]
   },
   {
-    "id": "p2",
-    "num": "02.",
+    "id": "p5",
+    "num": "",
     "title": "웹앱 - 교사 연수 플랫폼",
     "date": "2024.02~2024.03 (6명, 1개월)",
     "imgSrc": "assets/img/port02.jpg",
@@ -68,37 +146,8 @@
     ]
   },
   {
-    "id": "p3",
-    "num": "03.",
-    "title": "웹앱 - 개발자 포트폴리오",
-    "date": "2024 (1명)",
-    "imgSrc": "assets/img/port03.jpg",
-    "mainTitle": "PORTFOLIO",
-    "description": "이 포트폴리오 사이트는 다양한 프로젝트와 경험을 한눈에 볼 수 있는 플랫폼입니다. 사용자는 저의 기술적 역량과 프로젝트 수행 능력을 확인할 수 있으며, 각 프로젝트에 대한 상세한 설명과 GitHub 링크를 통해 실제 작업물을 직접 살펴볼 수 있습니다. 또한, 사이트는 반응형 디자인으로 다양한 기기에서 최적의 사용자 경험을 제공합니다. 제 개발 여정을 공유하고, 새로운 기회와 협업을 위한 포트폴리오를 구성하여, 지속적인 성장과 발전을 이루고자 합니다.",
-    "skills": [
-      "assets/img/비트.svg",
-      "assets/img/netlify.png",
-      "assets/img/html-5.png",
-      "assets/img/Vanilla.jpg",
-      "assets/img/css-3.png",
-      "assets/img/git.svg",
-      "assets/img/github2.svg",
-      "assets/img/vsCode.svg"
-    ],
-    "buttons": [
-      {
-        "type": "site",
-        "url": ""
-      },
-      {
-        "type": "code",
-        "url": "https://github.com/maplesyrup0423/portfolio-YEJIN-2024"
-      }
-    ]
-  },
-  {
-    "id": "p4",
-    "num": "04.",
+    "id": "p6",
+    "num": "",
     "title": "게임 - 방탈출 게임",
     "date": "2022.03~2022.12 (4명, 10개월)",
     "imgSrc": "assets/img/port04.jpg",
@@ -135,8 +184,8 @@
     ]
   },
   {
-    "id": "p5",
-    "num": "05.",
+    "id": "p7",
+    "num": "",
     "title": "애플리케이션 - 보드게임 가이드",
     "date": "2022.05~2022.06 (2명, 2개월)",
     "imgSrc": "assets/img/port05.jpg",
@@ -163,54 +212,5 @@
         "url": "https://github.com/maplesyrup0423/board-in"
       }
     ]
-  },
-  {
-    "id": "p6",
-    "num": "06.",
-    "title": "웹앱 - 개발자 타이핑 연습 서비스",
-    "date": "2024 (1명, 5일)",
-    "imgSrc": "assets/img/port06.jpg",
-    "mainTitle": "DevTyper",
-    "description": "DevTyper는 사용자가 실전 코드를 통해 타이핑 실력을 향상할 수 있는 웹 애플리케이션입니다. 이 앱은 GitHub API를 이용해 랜덤 코드 조각을 제공하고, 사용자의 타이핑 정확도와 속도를 측정하여 기록을 관리합니다. 이를 통해 개발자 및 코딩 초보자에게 유익한 연습 환경을 제공합니다.",
-    "skills": [
-      "assets/img/리액트.svg",
-      "assets/img/netlify.png",
-      "assets/img/html-5.png",
-      "assets/img/css-3.png",
-      "assets/img/git.svg",
-      "assets/img/github2.svg",
-      "assets/img/vsCode.svg"
-    ],
-    "buttons": [
-      {
-        "type": "site",
-        "url": "https://maplesyrup-devtyper.netlify.app/"
-      },
-      {
-        "type": "code",
-        "url": "https://github.com/maplesyrup0423/DevTyper"
-      }
-    ]
-  },
-  {
-    "id": "p7",
-    "num": "07.",
-    "title": "웹앱 - IT 면접 준비 서비스",
-    "date": "2025.01~개발중 (1명)",
-    "imgSrc": "assets/img/IIP.png",
-    "mainTitle": "IT Interview Prep",
-    "description": "IT 취준생들이 면접 준비를 체계적으로 할 수 있도록 돕는 웹 애플리케이션입니다. 주요 면접 질문을 제공하고, 연습 모드를 통해 답변 연습을 할 수 있으며, 개인의 준비 상황을 추적할 수 있는 기능을 지원합니다.",
-    "skills": [
-      "assets/img/리액트.svg",
-      "assets/img/Tailwind_CSS.png",
-      "assets/img/Firebase.png",
-      "assets/img/git.svg",
-      "assets/img/github2.svg",
-      "assets/img/vsCode.svg"
-    ],
-    "buttons": [   {
-      "type": "",
-      "url": ""
-    }]
   }
 ]
