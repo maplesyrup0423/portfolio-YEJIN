@@ -1,0 +1,103 @@
+{
+    "back-end": {
+      "name": "Back-end",
+      "icon": "code-branch",
+      "skills": [
+        { "name": "Java", "icon": "./assets/img/java.png" },
+        { "name": "Spring", "icon": "./assets/img/spring.png" },
+        { "name": "Node.js", "icon": "./assets/img/노드.svg" },
+        { "name": "Express", "icon": "" },
+        { "name": "JSP", "icon": "./assets/img/jsp.png" },
+        { "name": "PHP", "icon": "./assets/img/php.png" },
+        { "name": "MyBatis", "icon": "./assets/img/mtbatis.jpg" },
+        { "name": "RESTful API", "icon": "" }
+      ]
+    },
+    "front-end": {
+      "name": "Front-end",
+      "icon": "palette",
+      "skills": [
+        { "name": "React", "icon": "./assets/img/리액트.svg" },
+        { "name": "HTML5", "icon": "./assets/img/html-5.png" },
+        { "name": "CSS3", "icon": "./assets/img/css-3.png" },
+        { "name": "JavaScript", "icon": "./assets/img/js.png" },
+        { "name": "Vanilla JavaScript", "icon": "./assets/img/Vanilla.jpg" },
+        { "name": "Vite", "icon": "./assets/img/비트.svg" }
+      ]
+    },
+    "tools": {
+      "name": "Tools",
+      "icon": "tools",
+      "skills": [
+        { "name": "Netlify", "icon": "./assets/img/netlify.png" },
+        { "name": "Eclipse", "icon": "./assets/img/이클립스.png" },
+        { "name": "VS Code", "icon": "./assets/img/vsCode.svg" },
+        { "name": "Visual Studio", "icon": "./assets/img/Visual Studio.jpg" },
+        { "name": "Unity", "icon": "./assets/img/유니티.png" },
+        { "name": "MySQL Workbench", "icon": "./assets/img/MySQL-Workbench.jpg" },
+        { "name": "HeidiSQL", "icon": "./assets/img/HeidiSQL.jpg" },
+        { "name": "Oracle SQL Developer", "icon": "./assets/img/Oracle SQL Developer.png" },
+        { "name": "Android Studio", "icon": "./assets/img/안드로이드.png" }
+      ]
+    },
+    "server": {
+      "name": "Server",
+      "icon": "server",
+      "skills": [
+        { "name": "Node.js", "icon": "./assets/img/노드.svg" },
+        { "name": "Apache Tomcat", "icon": "./assets/img/톰.png" },
+        { "name": "AWS", "icon": "./assets/img/aws.png" }
+      ]
+    },
+    "db": {
+      "name": "DB",
+      "icon": "database",
+      "skills": [
+        { "name": "MySQL", "icon": "./assets/img/mysql-logo.svg" },
+        { "name": "Oracle", "icon": "./assets/img/오라클.png" }
+      ]
+    },
+    "os": {
+      "name": "OS",
+      "icon": "desktop",
+      "skills": [
+        { "name": "Linux", "icon": "./assets/img/Linux.png" },
+        { "name": "Android", "icon": "./assets/img/안드.png" }
+      ]
+    },
+    "collaboration": {
+      "name": "Collaboration",
+      "icon": "users",
+      "skills": [
+        { "name": "Git", "icon": "./assets/img/git.svg" },
+        { "name": "GitHub", "icon": "./assets/img/github.svg" },
+        { "name": "Notion", "icon": "./assets/img/Notion.png" },
+        { "name": "Discord", "icon": "./assets/img/Discord.png" },
+        { "name": "Google Workspace", "icon": "./assets/img/Google Workspace.png" }
+      ]
+    },
+    "design_document": {
+      "name": "Design & Document",
+      "icon": "paint-brush",
+      "skills": [
+        { "name": "Figma", "icon": "./assets/img/figma.png" },
+        { "name": "PowerPoint", "icon": "./assets/img/ppt.jpg" },
+        { "name": "Excel", "icon": "./assets/img/excel.jpg" },
+        { "name": "미리캔버스", "icon": "./assets/img/미리.png" },
+        { "name": "CLIP STUDIO", "icon": "./assets/img/CLIP STUDIO PAINT.jpg" },
+        { "name": "Adobe XD", "icon": "./assets/img/xd.png" },
+        { "name": "Photoshop", "icon": "./assets/img/ps.png" },
+        { "name": "Illustrator", "icon": "./assets/img/ai.png" }
+      ]
+    },
+    "other_languages": {
+      "name": "Other Programming Languages",
+      "icon": "code",
+      "skills": [
+        { "name": "C", "icon": "./assets/img/c.png" },
+        { "name": "C#", "icon": "./assets/img/c-sharp.png" },
+        { "name": "Python", "icon": "./assets/img/파이썬.png" }
+      ]
+    }
+  }
+  
