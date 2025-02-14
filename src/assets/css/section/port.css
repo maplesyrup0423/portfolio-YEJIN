@@ -69,7 +69,7 @@
   background-color: var(--subBg500);
 }
 .port__item .num {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: var(--mainNum-font);
 }
 .port__item .img {
