@@ -135,3 +135,10 @@
     height: 70px;
   }
 }
+.stats {
+  /* background-color: var(--bg1); */
+  background-color: var(--bg1);
+}
+.stats img {
+  height: 100%;
+}
